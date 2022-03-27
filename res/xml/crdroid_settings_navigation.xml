@@ -61,6 +61,13 @@
             android:summary="@string/navbar_invert_layout_summary"
             android:defaultValue="false" />
 
+        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+            android:key="navbar_disallow_taskbar"
+            android:icon="@drawable/ic_navbar_layout"
+            android:title="@string/navbar_disallow_taskbar_title"
+            android:summary="@string/navbar_disallow_taskbar_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

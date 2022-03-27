@@ -506,6 +506,8 @@
     <string name="navbar_layout_rightleaning">右寄り</string>
     <string name="navbar_invert_layout_title">レイアウトを反転</string>
     <string name="navbar_invert_layout_summary">ナビゲーションバーや入力方法の切替えなどのレイアウトを反転させます</string>
+    <string name="navbar_disallow_taskbar_title">タスクバーを表示しない</string>
+    <string name="navbar_disallow_taskbar_summary">タブレット等の大画面デバイスでもタスクバーを表示しません</string>
     <string name="navbar_actions_category_title">アクション</string>
     <string name="navbar_back_long_press_title">バック長押し</string>
     <string name="navbar_home_long_press_title">ホーム長押し</string>

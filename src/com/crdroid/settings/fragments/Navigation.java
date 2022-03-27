@@ -212,6 +212,8 @@ public class Navigation extends SettingsPreferenceFragment implements
         LineageSettings.System.putIntForUser(resolver,
              LineageSettings.System.NAVIGATION_BAR_MENU_ARROW_KEYS, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.NAVBAR_DISALLOW_TASKBAR, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.NAVBAR_INVERSE_LAYOUT, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putStringForUser(resolver,
                 Settings.Secure.NAVBAR_LAYOUT_VIEWS, "default", UserHandle.USER_CURRENT);
